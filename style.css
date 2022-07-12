@@ -197,6 +197,9 @@ h2.text-center{
 .list-group-item{
     background-color: blanchedalmond;
 }
+.container-img{
+    margin-right: 25px;
+}
 /*Start of the Carousel section*/
 *{
     margin: 0;
@@ -396,6 +399,8 @@ h2.text-center{
 
     .hidden{
         visibility: hidden;
+        padding: 0px;
+        margin: -60px 0 0 0;
     }
     /*End of Index Code*/
     /*Register Code*/
@@ -435,5 +440,14 @@ h2.text-center{
     .container-img{
         display: flex;
         flex-direction: row;
+        margin-top: 25px;
+    }
+
+    .tagline{
+        margin-top: -20px;
+    }
+
+    .sm{
+        margin-top: 25px;
     }
 }
